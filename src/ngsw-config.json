@@ -23,5 +23,18 @@
         ]
       }
     }
+  ],
+  "dataGroups": [
+    {
+      "name": "api-freshness",
+      "urls": [
+        "https://5cd161ddd4a78300147be980.mockapi.io/api/v1/*",
+      ],
+      "cacheConfig": {
+        "strategy": "freshness",
+        "maxSize": 100,
+        "maxAge": "3d"
+      }
+    }
   ]
 }
