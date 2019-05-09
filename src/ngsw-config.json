@@ -20,6 +20,9 @@
         "files": [
           "/assets/**",
           "/*.(eot|svg|cur|jpg|png|webp|gif|otf|ttf|woff|woff2|ani)"
+        ],
+        "urls": [
+          "https://*.githubusercontent.com/*"
         ]
       }
     }
@@ -29,7 +32,9 @@
       "name": "api-freshness",
       "urls": [
         "https://5cd161ddd4a78300147be980.mockapi.io/api/v1/*",
+        "https://api.github.com/*"
       ],
+      "version": 2,
       "cacheConfig": {
         "strategy": "freshness",
         "maxSize": 100,

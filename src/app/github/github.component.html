@@ -1,0 +1,9 @@
+<button (click)="refeshList(0)">0</button>
+<button (click)="refeshList(100)">100</button>
+<button (click)="refeshList(1000)">1000</button>
+
+<ol>
+  <li *ngFor="let user of githubUsers">
+    <app-user [githubUser]="user"></app-user>
+  </li>
+</ol>

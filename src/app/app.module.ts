@@ -10,13 +10,17 @@ import { PostContainerComponent } from './post-container/post-container.componen
 import { PostAddComponent } from './post-add/post-add.component';
 import {FormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
+import { GithubComponent } from './github/github.component';
+import { UserComponent } from './github/user/user.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PostComponent,
     PostContainerComponent,
-    PostAddComponent
+    PostAddComponent,
+    GithubComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
